@@ -1,0 +1,16 @@
+<section>
+  <form method="post" action="/memos/<%= @memo['id'] %>">
+    <div>
+      <label class="label">タイトル</label>
+      <input type="text" name="title" value="<%= @memo['title'] %>" class="title_textfield" required>
+    </div>
+    <div>
+      <label class="label">内容</label>
+      <textarea name="text" class="text_textarea" required><%= @memo['text'] %></textarea>
+    </div>
+    <div>
+      <input type="hidden" name="_method" value="PATCH">
+      <input type="submit" value="変更" class="change_button">
+    </div>
+  </form>
+</section>

@@ -1,0 +1,91 @@
+/*
+////////////////////////////////////////
+メモアプリ用スタイル
+////////////////////////////////////////
+*/
+
+body {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+}
+
+.edit_button, .delete_button, .change_button,.index_register_label, .save_button {
+  display: block;
+  color: #fff;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.change_button {
+  margin-top: 30px;
+  background-color: #0b2ef5;
+  font-weight: bold;
+}
+
+.edit_button {
+  background-color: #089c9f;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.delete_button {
+  background-color: #f00a0a;
+  float: right;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.save_button {
+  margin-top: 30px;
+  background-color: #bf05c2;
+  font-weight: bold;
+}
+
+.index_register_label {
+  background-color: #f00a0a;
+  float: center;
+  width: 100px;
+  height: 25px;
+  font-weight: bold;
+}
+
+.title_textfield, .text_textarea {
+  display: block;
+  color: #000000;
+  width: 500px;
+  padding: 6px;
+  margin: 100 auto;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.label {
+  display: block;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.index_list_label, .index_register_label, .index_memo_list {
+  display: block;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.memo_list_title {
+  list-style: disc;
+}
+
+.header {
+  display: block;
+  color: #000000;
+  line-height: 60px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+}
